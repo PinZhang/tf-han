@@ -8,4 +8,4 @@ There are a few issues at the moment,
 Gotcha,
 
 * The original paper does not use `cross-entropy` as the Loss function, instead it uses the negative sum of the logarithm of the probability corresponding to the correct class label.
-* There was an error in the previous implementation that treated each setence in a document separately. However they should be considered as a whole: the final state of `RNN` run of one sentence should be the the input state of the next sentence. 
+* There was an error in the previous implementation that treated each sentence in a document separately. However they should be considered as a whole: the final state of `RNN` run of one sentence should be the the input state of the next sentence. 
